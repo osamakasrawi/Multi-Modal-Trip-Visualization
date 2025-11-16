@@ -62,12 +62,34 @@ This project demonstrates:
 - Emulator or physical device
 
 ### 2. Install Dependencies
-- flutter pub get
+- `flutter pub get`
 
 ### 3. Generate Freezed Models
-- flutter pub run build_runner build --delete-conflicting-outputs
+- `flutter pub run build_runner build --delete-conflicting-outputs`
 
 ### 4. Run the App
-- flutter run
+- `flutter run`
 
+---
 
+## How to Extend the Project
+
+1. **Backend Integration**
+  - Replace local JSON with a REST API for dynamic trips
+  - Add caching with Hive or SharedPreferences
+
+2. **More Modes of Transport**
+  - Flights, ferries, or ride-sharing options
+
+3. **Interactive Map Features**
+  - Animated route drawing
+  - Real-time location tracking
+  - Tap-to-zoom and draggable markers
+
+4. **Analytics & Environmental Data**
+  - Show CO₂ savings per segment
+  - Compare multi-modal options
+
+5. **User Preferences**
+  - Save favorite trips
+  - Multi-language support for descriptions and labels
